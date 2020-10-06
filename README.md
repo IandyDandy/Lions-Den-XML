@@ -25,7 +25,7 @@ The next few  section will teach you the elements needed to define your data. Th
 Here are a few common ways this tutorial will describe content:
 * **ABC** — Any text may be inputted. There are a few characters that cannot be used. **&**, **<**, and **>**. These characters must be replaced with ```&amp;```, ```&lt;```, and ```&gt;```, respectively.
 * **###** — Any number may be inputted. Only unformatted numbers are acceptable, meaning remove any commas and other characters, except for dots for decimal point numbers.
-* **D20** — A dice roll formula. For example, "1d10 + 5", "5d6", or "3d3 + 1d7 - 2". Use 'd' to denote a die. = and - operators are acceptable. Remove any white spaces.
+* **D20** — A dice roll formula. For example, "*1d10+5*", "*5d6*", or "*3d3+1d7-2*". Use 'd' to denote a die. = and - operators are acceptable. Remove any white spaces.
 * The | denotes that the element can take a specific value from the given list. Acceptable values are separated the | character.
 * Some elements take multiple values. Acceptable values are separated by commas.
 
