@@ -18,7 +18,7 @@ Some elements may also specify **attributes**, which further define an element. 
 
 These are the basics you'll need to make your Fight Club import file. You'll see the terminology learned throughout the rest of the tutorial.
 
-Terminiology
+Terminology
 ---
 The next few  section will teach you the elements needed to define your data. The content for these elements will consist of text, numbers, dice rolls formulas, or otherwise specified values.
 
