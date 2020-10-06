@@ -39,7 +39,7 @@ The first element needed is named "compendium". The element must contain an attr
 
 The shell of your document will look like this:
 ```
-<?cml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
   Content goes here
 </compendium>
