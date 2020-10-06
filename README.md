@@ -1,6 +1,6 @@
 Welcome to Lion's Den XML Repository
 ---
-This is an unofficial repository that contain the information from the Dungeons & Dragons sourcebooks. My version is nuanced to my idea of how the information should be organised.
+This is an unofficial repository meant for the Lion's Den series of apps, that contain the information from the Dungeons & Dragons sourcebooks. My version is nuanced to my idea of how the information should be organised.
 
 The Basics
 ---
