@@ -23,3 +23,18 @@ The following is a list of elements that can be used:
 * **roll (D20)** - *Dice Roll Formulas. Ability modifiers can be inputted using ```STR```, ```DEX```, ```CON```, ```INT```, ```WIS```, and ```CHA```. To input the class spell ability modifier, use ```SPELL```.
 
 * **classes (ABC, ABC, ...)** - Classes.
+
+Sample Spell - Magic Missile
+---
+```
+<spell><name>Magic Missile</name>
+ <level>1</level>
+ <school>EV</school>
+ <time>1 action</time>
+ <range>120 feet</range>
+ <components>V, S</components>
+ <duration>Instantaneous</duration>
+ <text>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4+1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.\n At Higher Levels. When you cast this spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</text>
+ <classes>Sorcerer, Wizard</classes>
+</spell>
+```
