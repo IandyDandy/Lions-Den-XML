@@ -1,6 +1,6 @@
 Spells Template
 ---
-A spell is defined using an element named **spell**. Its content will consist of several elements, which will define your spell.
+A spell is defined using an element named ```spell```. Its content will consist of several elements, which will define your spell.
 
 The following is a list of elements that can be used:
 * **name (ABC)**
