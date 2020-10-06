@@ -23,4 +23,4 @@ Terminiology
 The next few  section will teach you the elements needed to define your data. The content for these elements will consist of text, numbers, dice rolls formulas, or otherwise specified values.
 
 Here are a few common ways this tutorial will describe content:
-* **ABC** — Any text may be inputted. There are a few characters that cannot be used. **&**, **<**, and **>**. These characters must be replaced with **&amp;**, **&lt;**, and **&gt;**, respectively.
+* **ABC** — Any text may be inputted. There are a few characters that cannot be used. **&**, **<**, and **>**. These characters must be replaced with ```&amp;```, **&lt;**, and **&gt;**, respectively.
