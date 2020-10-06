@@ -23,4 +23,26 @@ Terminiology
 The next few  section will teach you the elements needed to define your data. The content for these elements will consist of text, numbers, dice rolls formulas, or otherwise specified values.
 
 Here are a few common ways this tutorial will describe content:
-* **ABC** — Any text may be inputted. There are a few characters that cannot be used. **&**, **<**, and **>**. These characters must be replaced with ```&amp;```, **&lt;**, and **&gt;**, respectively.
+* **ABC** — Any text may be inputted. There are a few characters that cannot be used. **&**, **<**, and **>**. These characters must be replaced with ```&amp;```, ```&lt;```, and ```&gt;```, respectively.
+* **###** — Any number may be inputted. Only unformatted numbers are acceptable, meaning remove any commas and other characters, except for dots for decimal point numbers.
+* **D20** — A dice roll formula. For example, "1d10 + 5", "5d6", or "3d3 + 1d7 - 2". Use 'd' to denote a die. = and - operators are acceptable. Remove any white spaces.
+* The | denotes that the element can take a specific value from the given list. Acceptable values are separated the | character.
+* Some elements take multiple values. Acceptable values are separated by commas.
+
+For example, when you see "name(ABC)' throughout the tutorial, that says the element's name is "name" and it takes text as its content, as in ```<name>Gandalf the Grey</name>```. "classes(ABC, ABC, ...)" says the classes element takes multiple text strings, as in ```<classes>Fighter, Wizard</classes>```.
+
+Getting Started
+---
+Create a file with an XML extension (i.e. compendium.xml). Open the file in any text editor. This file must be start with the following line: ```<?xml version="1.0' encoding="UTF-8"?>```. This line defines the XML document that it is read into the app.
+
+The first element needed is named "compendium". The element must contain an attribute named "version" with its value set to "5". The content for the **compendium** element will be your lists of spells, items, creatures, races, classes, backgrounds, and / or feats.
+
+The shell of your document will look like this:
+```
+<?cml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+  *Content goes here*
+</compendium>
+```
+
+The **compendium** element may optionally take the ```auto_indent``` attribute with a value set to "YES" or "NO". Yes means certain text descriptions elements will automatically indent paragraphs.
