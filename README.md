@@ -41,7 +41,7 @@ The shell of your document will look like this:
 ```
 <?cml version="1.0" encoding="UTF-8"?>
 <compendium version="5">
-  *Content goes here*
+  Content goes here
 </compendium>
 ```
 
