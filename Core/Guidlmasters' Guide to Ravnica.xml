@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+<race><name>Vedalken</name>
+<ability>INT 2, WIS 1</ability>
+<size>Medium</size>
+<speed>30</speed>
+<trait><name>Age</name><text>Vedalken mature slower than humans do, reaching maturity around age 40. Their life span is typically 350 years, with some living to the age of 500.</text></trait>
+<trait><name>Alignment</name><text>Vedalken are usually lawful and non-evil.</text></trait>
+<trait><name>Size</name><text>Tall and slender, Vedalken stand 6 to 6½ feet tall on average and usually weigh less than 200 pounds. Your size is Medium.</text></trait>
+<trait><name>Speed</name><text>Your base walking speed is 30 feet.</text></trait>
+<trait><name>Vedalken Dispassion</name><text>You have advantage on all Intelligence, Wisdom, and Charisma saving throws.</text></trait>
+<trait><name>Tireless Precision</name><text>You are proficient in one of the following skills of your choice: Arcana, History, Investigation, Medicine, Performance, or Sleight of Hand. You are also proficient with one tool of your choice.\n\nWhenever you make an ability check with the chosen skill or tool, roll a d4 and add the number rolled to the check's total.</text></trait>
+<trait><name>Partially Amphibious</name><text>By absorbing oxygen through your skin, you can breathe underwater for up to 1 hour. Once you've reached that limit, you can't use this trait again until you finish a long rest.</text></trait>
+<trait><name>Languages</name><text>You can speak , read, and write Common, Vedalken, and one other language of your choice.</text></trait>
+</race>
+</compendium>
